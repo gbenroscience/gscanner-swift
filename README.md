@@ -15,13 +15,13 @@ There is no need to resort to regular expressions in this case.
 This simple library lends itself as an hi-speed scanner/splitter and returns an array containing the substrings of the original
 string. Whether you would love to retain the splitting tokens in the scanner's output is totally up to you! 
 
-Simply set the ```includeTokensInOutput``` property of your ```GScanner``` to true to retain the splitting tokens.
+Simply set the ```includeTokensInOutput``` property of your ```CustomScanner``` to true to retain the splitting tokens.
 Else set it to false.
 
 The most sensible way of implementing this scan is to prioritize the splitter-tokens by sorting them by length in descending order.
 So, longer tokens are first split out, and if they are not found, the consecutive shorter ones are.
 
-If you have other requirements, modify the scanner.js file and specify the priority order for scanning tokens by changing
+If you have other requirements, modify the CustomScanner.swift file and specify the priority order for scanning tokens by changing
 the sort function as appropriate.
 
 
