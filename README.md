@@ -2,7 +2,7 @@
 Swift library for scanning text strings into tokens based on pre-defined tokens
  
 
-gscanner-swift is a simple Javascript library that helps you quickly scan a string and split it into 
+gscanner-swift is a simple Swift library that helps you quickly scan a string and split it into 
 substrings based on an array of supplied tokens.
  
 This library benchmarks very fast and is stable.
